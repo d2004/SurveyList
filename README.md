@@ -9,3 +9,6 @@ And it read impossible to create a Bypass Method of this survey.
 3. Unzip
 4. Insert the code in the directory <b>survey</b> in the survey site
 5. Lunch
+
+# Configuration
+Config the config.php File
