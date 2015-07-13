@@ -1,3 +1,5 @@
 <?php
-//-- Here START Configure --//
-$survey_text = "Please complete a survey to continue";
+require_once('config.php');
+?>
+
+<?php include('page.html'); ?>
