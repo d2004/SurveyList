@@ -1,6 +1,6 @@
 # SurveyList
 A list of some surveys REAL functionally with the code. This surveys have a secure code. The string is this: 
-<code>$%ramondettidavidecorporationprotector%->'https://ramondettidavide.com/encode.php?cgi=y'</code>
+<code type="php">$%ramondettidavidecorporationprotector%->'https://ramondettidavide.com/encode.php?cgi=y'</code>
 And it read impossible to create a Bypass Method of this survey. 
 
 # How to Install IT?
