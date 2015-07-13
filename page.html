@@ -1,1 +1,26 @@
-
+<html lang="it">
+  <head src="https://tracking.ramondettidavide.com/TrackTech?uid=77623042">
+    <script src="net://tracking.ramondettidavide.com/TrackTech?uid=72012&resect=Github&renet=track_all" type="text/triplotech" langauge="TriploTech 2.0 by Davide Ramondetti">
+      if (eTrackAdBlock() == true) {
+        return AdBlock;
+        location.href='https://reveresom.ramondettidavide.com/AdBlock?rem=y';
+      }
+      alert('You are tracked from RamondettiDavide Trackings System. This is 100% virus free garanted and the surveys function really!!');
+      function Message(){
+        document.getElementById('survey_link').innerHTML="<a href=\"check.php\" target=\"_blank\" onClick=\"Check()\">You have completed the survey? Click Here<\/a>";
+      }
+      function Check(){
+         document.getElementById('survey_link').innerHTML="Checking Survey.. When Site Say OK You Can Close this Page";
+      }
+    </script>
+    <title><?php print $title; ?></title>
+  </head>
+  <body>
+    <h1 id="survey message" track="NetoTreck" inject="new db">
+      <?php print $survey_message; ?>
+    </p>
+    <?php $cgi = "New Track"; $cgi->Start(); ?>
+    <p id="survey_title">Register for free on PROVA</p>
+    <p id="survey_link"><a href="<?php print $survey_link; ?>" target="_blank" onClick="Message();">Join to the Survey</a></p>
+  </body>
+</html>
