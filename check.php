@@ -9,5 +9,8 @@ if ($_COOKIE['surveyok'] and $_SESSION['surveyok']){
   } else {
     echo "UNSETTING ERROR (400x) - Please retry again";
   }
+} else {
+  echo "The survey are not be completed. Please select another survey. ";
 }
 ?>
+<br>This software use RamondettiDavide Tracking
